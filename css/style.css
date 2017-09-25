@@ -1,0 +1,238 @@
+.body {
+	margin: 0 10em 0 10em;	
+	overflow-x: hidden;
+}
+
+.display-inline {
+	position: relative;
+	display: inline;
+}
+
+.header-1 {
+	position: relative;
+	background-color: #fff;
+	height: 15em;
+	margin: 0 11.7em;
+	width: 63em;
+	font-family: Arial, Helvetica, freesans, sans-serif;
+	font-weight: bold;
+	line-height: 29.51px;
+	text-align: left;
+	word-spacing: 0px;
+}
+
+.logo {
+	position: relative;
+	border-right: 1px solid lightgray; 
+	width: 5.7em;
+	height: 2.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.8em;
+}
+
+.logo img {
+	position: relative;
+	top: 8px;
+}
+
+.signin a,
+.news a,
+.sport a,
+.weather a,
+.iplayer a,
+.tv a,
+.radio a,
+.more a {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: lightgray;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: #000;
+	margin-left: -5px;
+}
+
+
+
+.signin a {
+	position: relative;
+	padding: 0 6.7em 0.8em 3em;
+}
+
+.signin a:hover {
+	border-bottom: 4px solid #1188BB;
+}
+
+.blank a {
+	position: relative;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: lightgray;
+	margin-left: -6px;
+	padding: 0 1.5em 0.8em 1.7em;
+
+}
+
+.blank a:hover {
+	border-bottom: 4px solid #000;
+}
+
+.news a {
+	position: relative;
+	padding: 0 1em 0.8em 1em;
+	margin-left: -1px;
+}
+
+.news a:hover {
+	border-bottom: 4px solid #992211;
+}
+
+.sport a {
+	position: relative;
+	padding: 0 1em 0.8em 1.2em;
+}
+
+.sport a:hover {
+	border-bottom: 4px solid #FFEE11;
+}
+
+.weather a {
+	position: relative;
+	padding: 0 1em 0.8em 1.2em;
+}
+
+.weather a:hover {
+	border-bottom: 4px solid #88CCEE;
+}
+
+.iplayer a {
+	position: relative;
+	padding: 0 1em 0.8em 1.2em;
+}
+
+.iplayer a:hover {
+	border-bottom: 4px solid #ED3D7D;
+}
+
+.tv a {
+	position: relative;
+	padding: 0 1em 0.8em 1.2em;
+}
+
+.tv a:hover {
+	border-bottom: 4px solid #262626;
+}
+
+.radio a {
+	position: relative;
+	padding: 0 1em 0.8em 1.2em;
+}
+
+.radio a:hover {
+	border-bottom: 4px solid #262626;
+}
+
+.more a {
+	position: relative;
+	padding: 0 3.4em 0.8em 1.2em;
+}
+
+.more a:hover {
+	border-bottom: 4px solid #262626;
+}
+
+.search {
+	position: relative;
+	top: 1px;
+	margin-left: 0.3em;
+	color: #333;
+	width: 10em;
+}
+
+.search input[type="text" i] {
+    padding: 3px 0px 3px 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #E4E4E4;
+    border: none;
+    padding: 5px;
+    width: 162px;
+}
+
+.orb-search-button {
+	position: relative;
+	top: 8px;
+	left: -5px;
+	height: 17px;
+	width: 17px;
+	background-color: #E4E4E4;
+	padding: 4px 7px 4px 4px;
+}
+
+input:focus, 
+textarea:focus,
+select:focus {
+	outline-offset: -2px;
+	font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+    color: #000;
+    font-weight: bold;
+}
+
+input::-moz-input-placeholder {
+    color: #000;
+    font-weight: bold;
+}
+
+input::-o-input-placeholder {
+    color: #000;
+    font-weight: bold;
+}
+
+.header-2 {
+	position: relative;
+	top: -12.3em;
+	background-color: #bb1919;
+	height: 3.5em;
+	width: 228em;
+	min-height: 3.5em;
+	display: block;
+}
+
+.news-big {
+	position: relative;
+	top: 0.5em;
+	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+	font-size: 2.25em;
+	padding: 6em 5.1em;
+	font-weight: normal;
+	line-height: 16px;
+	text-decoration: none solid rgb(64,64,64);
+	word-spacing: 0px;
+	color: #fff;
+	height: auto;
+	width: auto;
+}
+
+.find-local-news {
+	position: relative;
+	top: 0.5em;
+	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	margin: 7em 27.5em;
+	padding: 0.2em 2em 0.2em 0.4em;
+	font-weight: normal;
+	line-height: 32px;
+	text-decoration: none solid rgb(64,64,64);
+	word-spacing: 0px;
+	color: #fff;
+	height: auto;
+	width: auto;
+	border: 1px solid #bb4545;
+}
+
+.find-local-news:hover {
+	text-decoration: underline solid rgb(255,255,255);
+}
