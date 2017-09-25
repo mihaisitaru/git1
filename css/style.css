@@ -1,6 +1,7 @@
 .body {
-	margin: 0 10em 0 10em;	
+	margin: 0 10em 0 10em;
 	overflow-x: hidden;
+	padding: 10px;
 }
 
 .display-inline {
@@ -23,7 +24,7 @@
 
 .logo {
 	position: relative;
-	border-right: 1px solid lightgray; 
+	border-right: 1px solid lightgray;
 	width: 5.7em;
 	height: 2.5em;
 	padding-right: 0.5em;
@@ -169,7 +170,7 @@
 	padding: 4px 7px 4px 4px;
 }
 
-input:focus, 
+input:focus,
 textarea:focus,
 select:focus {
 	outline-offset: -2px;
