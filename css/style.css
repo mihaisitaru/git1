@@ -237,3 +237,37 @@ input::-o-input-placeholder {
 .find-local-news:hover {
 	text-decoration: underline solid rgb(255,255,255);
 }
+.header-3 {
+	position: relative;
+	top: -12.5em;
+	background-color: #A91717;
+	height: 2.3em;
+	width: 228em;
+	min-height: 2.3em;
+	display: block;
+	overflow: hidden;
+}
+.header-3 ul {
+	position: relative;
+	margin-left: 10.7em;
+}
+.header-3 a {
+	position: relative;
+	top: -0.5em;
+	font-family: "Lucida sans", Helvetica, sans-serif;
+	font-size: 0.9em;
+	line-height: 3.7em;
+	text-align: left;
+	text-decoration: none solid rgb(85, 85, 85);
+	color: #fff;
+	padding: 0.2em 0.8em 0.5em 0.8em;
+	border-right: 1px solid #bb4545;
+}
+
+.header-3 a:hover {
+	border-bottom: 3px solid #fff;
+}
+
+.current-tab {
+	border-bottom: 3px solid #fff;
+}
