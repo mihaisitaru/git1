@@ -53,8 +53,6 @@
 	margin-left: -5px;
 }
 
-
-
 .signin a {
 	position: relative;
 	padding: 0 6.7em 0.8em 3em;
@@ -70,7 +68,7 @@
 	border-right-width: 1px;
 	border-right-color: lightgray;
 	margin-left: -6px;
-	padding: 0 1.5em 0.8em 1.7em;
+	padding: 0 1.5em 0.6em 1.7em;
 
 }
 
@@ -207,7 +205,7 @@ input::-o-input-placeholder {
 	top: 0.5em;
 	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
 	font-size: 2.25em;
-	padding: 6em 5.1em;
+	padding: 0em 5.1em;
 	font-weight: normal;
 	line-height: 16px;
 	text-decoration: none solid rgb(64,64,64);
@@ -270,4 +268,75 @@ input::-o-input-placeholder {
 
 .current-tab {
 	border-bottom: 3px solid #fff;
+}
+
+h1 {
+	position: relative;
+	display: inline-block;
+	top: -10.5em;
+	margin-left: 8.7em;
+	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
+	line-height: 1em;
+	color: #000;
+	border-bottom: 3px solid #bb1919;
+	height: 1em;
+	width: 101.188px;
+	padding: 8px 0 0 0;
+}
+
+.main-article-title {
+	position: relative;
+	display: inline;
+	top: -5em;
+	margin-left: -3.3em;
+	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 2em;
+	width: auto;
+	height: auto;
+	color: #5a5a5a;
+	text-decoration: none;
+}
+
+.main-article-title:hover {
+	color: #1167A8;
+}
+
+.main-article-container {
+	position: absolute;
+	display: block;
+	top: 14.5em;
+	left: 11.1em;
+	bottom: 0;
+	background-position: 250px;
+	background-size: 359px;
+	height: 16.6em;
+	width: 15em;
+}
+
+.main-article-text  {
+	position: relative;
+	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	height: 6.6em;
+	width: 6.8em;
+	text-decoration: none;
+	color: #5a5a5a;
+	text-align: left;
+}
+
+.main-article-text:hover {
+	cursor: pointer;
+}
+
+.main-article-img {
+	position: relative;
+	top: -4.5em;
+	height: 14.6em;
+	width: 24.8em;
+	left: 25.5em;
+	float: right;
 }
