@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Technology - BBC News - 1</title>
+		<title>Technology - BBC News</title>
 		<!-- This resets any default values added by the browsers -->
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<!-- This is the css style document used -->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<!-- This is the logo -->
-		<link rel="icon" href="http://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1" type="image/x-icon" />
+		<link rel="icon" href="images/bbc-blocks-dark.png" type="image/x-icon" />
 		<!-- A bunch of metas -->
 		<meta charset="UTF-8" />
 		<meta name="description" content="" />
@@ -17,50 +17,74 @@
 	<body>
 		<div class="container">
 			<div class="header-1">
-				<div class="logo display-inline"><a href="index.html"><img src="images/bbc-blocks-dark.png" alt="bbc-logo"></a></div>
-				<div class="signin display-inline"><a href="content/signin.html">Sign in</a></div>
-				<div class="blank display-inline"><a href="#"></a></div>
-				<div class="news display-inline"><a href="content/news.html">News</a></div>
-				<div class="sport display-inline"><a href="content/sport.html">Sport</a></div>
-				<div class="weather display-inline"><a href="content/weather.html">Weather</a></div>
-				<div class="iplayer display-inline"><a href="content/iplayer.html">iPlayer</a></div>
-				<div class="tv display-inline"><a href="content/tv.html">TV</a></div>
-				<div class="radio display-inline"><a href="content/radio.html">Radio</a></div>
-				<div class="more display-inline"><a href="content/more.html">More</a></div>
-				<div class="search display-inline"><input type="text" placeholder="Search">
-					<input type="image" class="orb-search-button display-inline" src="./images/orb-search-dark.png" width="17" height="17" alt="Search the BBC">
+				<div class="logo first-header"><a href="index.html"><img src="images/bbc-blocks-dark.png" alt="bbc-logo"></a></div>
+				<div class="signin first-header"><a href="content/signin.html"><img src="images/signin-logo.png">Sign in</a></div>
+				<div class="bell border-none first-header"><img class="bell-img" src="images/bell.png"><img class="bell-line" src="images/wiggly-line.png"><a href="#"></a></div>
+				<div class="news first-header"><a href="content/news.html">News</a></div>
+				<div class="sport first-header"><a href="content/sport.html">Sport</a></div>
+				<div class="weather first-header"><a href="content/weather.html">Weather</a></div>
+				<div class="iplayer first-header"><a href="content/iplayer.html">iPlayer</a></div>
+				<div class="tv first-header"><a href="content/tv.html">TV</a></div>
+				<div class="radio first-header"><a href="content/radio.html">Radio</a></div>
+				<div class="more first-header"><a href="content/more.html">More<img src="images/more-arrow-black.png"></a></div>
+				<div class="search first-header"><input type="text" placeholder="Search">
+					<input type="image" class="orb-search-button first-header" src="./images/orb-search-dark.png" width="17" height="17" alt="Search the BBC">
 				</div>
 			</div>
-			<div class="header-2">
-				<a class="news-big display-inline" href="content/news.html">News</a>
-				<a class="find-local-news display-inline" href="content/local-news.html" target="_blank">Find local news</a>
+			<div class="clear-fix"></div>
+			<div class="menu-bar-container">
+				<div class="menu-bar">
+					<a class="news-big" href="content/news.html">News</a>
+					<div class="find-local-news">
+						<a class="find-local-news first-header" href="content/local-news.html" target="_blank">Find local news<img src="images/pointer.png"></a>
+					</div>
+				</div>
 			</div>
+			<div class="clear-fix"></div>
 			<div class="header-3">
 				<ul>
-					<li class="display-inline"><a href="content/index.html" title="Home">Home</a></li>
-					<li class="display-inline"><a href="content/uk.html" title="UK">UK</a></li>
-					<li class="display-inline"><a href="content/world.html" title="World">World</a></li>
-					<li class="display-inline"><a href="content/business.html" title="Business">Business</a></li>
-					<li class="display-inline"><a href="content/politics.html" title="Politics">Politics</a></li>
-					<li class="current-tab display-inline"><a href="content/tech.html" title="Tech">Tech</a></li>
-					<li class="display-inline"><a href="content/science.html" title="Science">Science</a></li>
-					<li class="display-inline"><a href="content/health.html" title="Health">Health</a></li>
-					<li class="display-inline"><a href="content/education.html" title="Education">Education</a></li>
-					<li class="display-inline"><a href="content/entertainment-and-arts.html" title="Entertainment & Arts">Entertainment &amp; Arts</a></li>
-					<li class="display-inline"><a href="content/video-and-audio.html" title="Video & audio">Video &amp; audio</a></li>
-					<li class="display-inline"><a href="content/more.html" title="More">More</a></li>
+					<li><a href="content/index.html" title="Home">Home</a></li>
+					<li><a href="content/uk.html" title="UK">UK</a></li>
+					<li><a href="content/world.html" title="World">World</a></li>
+					<li><a href="content/business.html" title="Business">Business</a></li>
+					<li><a href="content/politics.html" title="Politics">Politics</a></li>
+					<li class="current-tab"><a href="content/tech.html" title="Tech">Tech</a></li>
+					<li><a href="content/science.html" title="Science">Science</a></li>
+					<li><a href="content/health.html" title="Health">Health</a></li>
+					<li><a href="content/education.html" title="Education">Education</a></li>
+					<li><a href="content/entertainment-and-arts.html" title="Entertainment & Arts">Entertainment &amp; Arts</a></li>
+					<li><a href="content/video-and-audio.html" title="Video & audio">Video &amp; audio</a></li>
+					<li class='border-none'><a href="content/more.html" title="More">More<img src="images/more-arrow-white.png"></a></li>
 				</ul>
 			</div>
-			<h1>Technology</h1>
-			<a class="main-article-title" href="http://www.bbc.co.uk/news/technology-35350789">Asda bug exposed payment details</a>
-			<div class="main-article-container">
-				<a class="main-article-text display-inline" href="http://www.bbc.co.uk/news/technology-35350789">Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</a>
-				<a href="http://www.bbc.co.uk/news/technology-35350789"><img class="main-article-img display-inline" src="images/_87784716_asda.gif"></a>
-				<a href="http://www.bbc.co.uk/news/technology-35350789">2 hours ago</a>
-				<a href="content/index.html">Technology</a>
-				<a href="http://www.bbc.co.uk/news/technology-33409594">Surveillance firm hit in hack attack</a>
-				<a href="http://www.bbc.co.uk/news/technology-29279213">eBay flaw has existed for months</a>
+			<div class="clear-fix"></div>
+			<div class="content">
+				<h1>Technology</h1>
+				<a class="main-article-title" href="http://www.bbc.co.uk/news/technology-35350789">Asda bug exposed payment details</a>
+				<div class="main-article-container">
+					<a class="main-article-text" href="http://www.bbc.co.uk/news/technology-35350789">Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</a>
+					<a href="http://www.bbc.co.uk/news/technology-35350789"><img class="main-article-img first-header" src="images/_87784716_asda.gif"></a>
+					<img class="clock" src="images/clock.png">
+					<a class="time" href="http://www.bbc.co.uk/news/technology-35350789">2 hours ago</a>
+					<a class="category" href="content/index.html">Technology</a>
+					<div class="clear-fix"></div>
+					<a class="news-1" href="http://www.bbc.co.uk/news/technology-33409594">Surveillance firm hit in hack attack</a>
+					<a class="news-2" href="http://www.bbc.co.uk/news/technology-29279213">eBay flaw has existed for months</a>
+				</div>
+				<div class="clear-fix"></div>
+				<div class="watch-listen-container">
+					<p class="watch-listen-title">Watch/Listen</p>
+					<ul class="watch-listen-content">
+						<li><a href="#"><img src="images/watch1.png"></a><p class="watch-article">UK science chief backs blockchains</p><img class="clock" src="images/clock.png"><p class="watch-date border-none">1 hour ago</p></li>
+						<li><a href="#"><img src="images/watch2.png"></a><p class="watch-article">Drone register gives 'accountability'</p><img class="clock" src="images/clock.png"><p class="watch-date">18 January 2016</p><a class="categ" href="content/index.html">Technology</a></li>
+						<li><a href="#"><img src="images/watch3.png"><p class="watch-article">SpaceX rocket explodes during landing</p><img class="clock" src="images/clock.png"><p class="watch-date">18 January 2016</p><a class="categ" href="content/index.html">Science &amp; Environment</a></li>
+						<li><a href="#"><img src="images/watch4.png"></a><p class="watch-article">What is a VPN service?</p><img class="clock" src="images/clock.png"><p class="watch-date">18 January 2016</p><a class="categ" href="content/index.html">Technology</a></li>
+						<li><a href="#"><img src="images/watch5.png"></a><p class="watch-article">Charge your phobe with a hand crank</p><img class="clock" src="images/clock.png"><p class="watch-date">15 January 2016</p><a class="categ" href="content/index.html">Technology</a></li>
+						<li><a href="#"><img src="images/watch6.png"></a><p class="watch-article">Drones break Guinness World Record</p><img class="clock" src="images/clock.png"><p class="watch-date">15 January 2016</p><a class="categ" href="content/index.html">Technology</a></li>
+					</ul>
+				</div>
 			</div>
+		</div>
 		<script type="text/javascript" src="js/js.js"></script>
 	</body>
 </html>
